@@ -50,4 +50,3 @@ const requestHandler = (request) => {
 };
 
 module.exports.default = requestHandler;
-

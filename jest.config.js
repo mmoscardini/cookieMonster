@@ -9,7 +9,9 @@ module.exports = {
     '**/*.{js,jsx,ts,tsx}',
     '!**/*.test.{js,jsx,ts,tsx}',
     '!jest.config.js',
+    '!webpack.config.js',
     '!coverage/**/*',
+    '!dist/**/*',
   ],
   coverageThreshold: {
     global: {

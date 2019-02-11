@@ -1,4 +1,4 @@
-const requestHandler = require('../index');
+const requestHandler = require('../index').default;
 
 const request = {
   headers: {
