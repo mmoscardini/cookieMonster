@@ -1,0 +1,30 @@
+{
+  "name": "5A-AB-Cookie",
+  "version": "1.0.0",
+  "description": "Lib to read and write AB Testing Cookie for Quinto Andar",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "start": "node src/index",
+    "test": "jest --config ./jest.config.js --coverage",
+    "test:watch": "jest --watch",
+    "test:watchAll": "jest --watchAll"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "jest": "^23.6.0"
+  },
+  "keywords": [
+    "Ab-test",
+    "cookies"
+  ],
+  "author": "Quintoandar",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "esm": "^3.2.4"
+  }
+}

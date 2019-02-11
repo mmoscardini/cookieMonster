@@ -1,0 +1,13 @@
+{
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "plugins": [
+    "promise"
+  ],
+  "extends": [
+    "plugin:node/recommended",
+    "airbnb-base"
+  ]
+}
